@@ -1,5 +1,6 @@
 package com.androiddevs.mvvmnewsapp.models
 
+
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 

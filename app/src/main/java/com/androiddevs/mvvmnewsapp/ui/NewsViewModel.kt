@@ -5,7 +5,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.androiddevs.mvvmnewsapp.models.NewsResponse
 import com.androiddevs.mvvmnewsapp.repository.NewsRepository
-import com.bumptech.glide.load.engine.Resource
+import com.androiddevs.mvvmnewsapp.util.Resource
+import kotlinx.coroutines.launch
 import retrofit2.Response
 
 class NewsViewModel(
